@@ -23,8 +23,8 @@ public class ConversorTeste {
         
          System.out.println("\n\t\t\t -- convertendo °F em °C -- \n");
         System.out.printf("%.2f°C = %.2f°F\n", 32.0, con.fahCel(32.0));
-        System.out.printf("%.2f°C = %.2f°F\n",-40.0, con.fahCel(-40.0));
-        System.out.printf("%.2f°C = %.2f°F\n",100.4, con.fahCel(100.4));
+        System.out.printf("%.2f°C = %.2f°F\n", -40.0, con.fahCel(-40.0));
+        System.out.printf("%.2f°C = %.2f°F\n", 100.4, con.fahCel(100.4));
     }
     
 }
